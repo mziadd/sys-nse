@@ -2,7 +2,7 @@
 
 This module contains a small, standalone C++ implementation that performs **best-effort user-space integrity probes** (filesystem + `/proc` + environment).
 
-It is designed to be embedded into mobile apps (Android NDK / iOS) or any Linux/macOS process that wants lightweight runtime tamper signals.
+It is designed to be embedded into any Linux/macOS process that wants lightweight runtime tamper signals, or into mobile apps (Android NDK / iOS).
 
 ## What it does
 
